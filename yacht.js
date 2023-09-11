@@ -126,7 +126,7 @@ const calculateSpecial = (rolls, category) => {
 const sum = (rolls) => {
   return rolls.reduce((prev, curr) => prev + curr, 0);
 }
-
+// Test
 export const score = (rolls, category) => {
   // Check for category conditon
   return normalCategory.includes(category) ?
