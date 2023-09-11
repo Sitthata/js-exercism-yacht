@@ -127,6 +127,8 @@ const sum = (rolls) => {
   return rolls.reduce((prev, curr) => prev + curr, 0);
 }
 // Test
+
+console.log("test");
 export const score = (rolls, category) => {
   // Check for category conditon
   return normalCategory.includes(category) ?
